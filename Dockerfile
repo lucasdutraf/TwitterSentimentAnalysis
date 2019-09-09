@@ -12,12 +12,13 @@ RUN apt-get update && apt-get install -y \
     gcc
 
 # Install python dependencies
-RUN pip3 install --upgrade pip && \
-    pip3 install jupyter && \
-    pip3 install pandas && \
-    pip3 install matplotlib && \
-    pip3 install numpy && \
-    pip3 install sklearn
+RUN apt install -y python3-numpy
+
+RUN pip3 install \
+    jupyter \
+    pandas \
+    matplotlib \
+    sklearn
 
 # Coping project
 COPY . /app
