@@ -1,6 +1,6 @@
 version: "3.6"
 services:
-  Twitter-Sentiment-Analysis-Notebook:
+  notebook:
     build:
       context: .
       dockerfile: Dockerfile
