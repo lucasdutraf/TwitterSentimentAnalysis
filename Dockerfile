@@ -21,3 +21,5 @@ RUN pip3 install \
 
 # Coping project
 COPY . /app
+
+CMD jupyter notebook --port=8888 --ip=0.0.0.0 --allow-root
