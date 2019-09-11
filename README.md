@@ -26,7 +26,7 @@ or
 ### References
 
 - Understanding confusion matrix. Accessed in 10/09/2019 <https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62>  
-- Accuracy, precision or recall. Accessed in 10/09/2019 <https://towardsdatascience.com/accuracy-precision-recall-or-f1-331fb37c5cb9>  
+- Accuracy, precision, recall or F1. Accessed in 10/09/2019 <https://towardsdatascience.com/accuracy-precision-recall-or-f1-331fb37c5cb9>  
 - Google Crash Course - Classification. Accessed in 10/09/2019 <https://developers.google.com/machine-learning/crash-course/classification/precision-and-recall>  
 
 *** 
